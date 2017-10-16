@@ -1,0 +1,17 @@
+﻿<Properties StartupConfiguration="{D7737A67-59BD-4675-8A7A-D4D2782689B7}|Default">
+  <MonoDevelop.Ide.ItemProperties.Workout__Demo.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.3F0E2ABB-A45B-402A-929B-529B0C943745" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Workout_Demo.iOS/Setup.cs">
+    <Files>
+      <File FileName="Workout_Demo.iOS/Setup.cs" Line="1" Column="19" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MultiItemStartupConfigurations />
+  <DisabledProjects>
+    <String>LegistrackerMobile.Droid/LegistrackerMobile.Droid.csproj</String>
+  </DisabledProjects>
+</Properties>
