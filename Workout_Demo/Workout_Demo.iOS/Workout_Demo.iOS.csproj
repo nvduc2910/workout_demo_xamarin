@@ -85,12 +85,6 @@
     <Reference Include="SDWebImage">
       <HintPath>..\packages\Xamarin.SDWebImage.3.7.5\lib\Xamarin.iOS\SDWebImage.dll</HintPath>
     </Reference>
-    <Reference Include="MBProgressBinding">
-      <HintPath>..\..\..\..\..\Desktop\MBProgressBinding.dll</HintPath>
-    </Reference>
-    <Reference Include="MessageBarLib">
-      <HintPath>..\..\..\..\..\Desktop\MessageBarLib.dll</HintPath>
-    </Reference>
     <Reference Include="MvvmCross.Platform">
       <HintPath>..\packages\MvvmCross.Platform.4.4.0\lib\Xamarin.iOS10\MvvmCross.Platform.dll</HintPath>
     </Reference>
@@ -111,6 +105,18 @@
     </Reference>
     <Reference Include="MvvmCross.Localization">
       <HintPath>..\packages\MvvmCross.Binding.4.4.0\lib\Xamarin.iOS10\MvvmCross.Localization.dll</HintPath>
+    </Reference>
+    <Reference Include="MBProgressBinding">
+      <HintPath>Libs\MBProgressBinding.dll</HintPath>
+    </Reference>
+    <Reference Include="MessageBarLib">
+      <HintPath>Libs\MessageBarLib.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net.Http.Extensions">
+      <HintPath>..\packages\Microsoft.Net.Http.2.2.29\lib\Xamarin.iOS10\System.Net.Http.Extensions.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net.Http.Primitives">
+      <HintPath>..\packages\Microsoft.Net.Http.2.2.29\lib\Xamarin.iOS10\System.Net.Http.Primitives.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>
@@ -209,6 +215,7 @@
     <Folder Include="Views\Cells\" />
     <Folder Include="Views\Cells\TableViewCells\" />
     <Folder Include="Views\TableSources\" />
+    <Folder Include="Libs\" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\Workout_Demo.Core\Workout_Demo.Core.csproj">
