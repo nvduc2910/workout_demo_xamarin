@@ -32,10 +32,6 @@
 /Users/ducnguyen/Documents/Freelancer Pro/Demo_workout_git/Workout_Demo/Workout_Demo.iOS/bin/iPhoneSimulator/Debug/PCLStorage.Abstractions.xml
 /Users/ducnguyen/Documents/Freelancer Pro/Demo_workout_git/Workout_Demo/Workout_Demo.iOS/bin/iPhoneSimulator/Debug/PCLStorage.xml
 /Users/ducnguyen/Documents/Freelancer Pro/Demo_workout_git/Workout_Demo/Workout_Demo.iOS/bin/iPhoneSimulator/Debug/Microsoft.Threading.Tasks.xml
-/Users/ducnguyen/Documents/Freelancer Pro/Demo_workout_git/Workout_Demo/Workout_Demo.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone9.1-10.3/ibtool/_BundleResourceWithLogicalName.items
-/Users/ducnguyen/Documents/Freelancer Pro/Demo_workout_git/Workout_Demo/Workout_Demo.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone9.1-10.3/actool/_PartialAppManifest.items
-/Users/ducnguyen/Documents/Freelancer Pro/Demo_workout_git/Workout_Demo/Workout_Demo.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone9.1-10.3/actool/_BundleResourceWithLogicalName.items
-/Users/ducnguyen/Documents/Freelancer Pro/Demo_workout_git/Workout_Demo/Workout_Demo.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone9.1-10.3/optimized/
 /Users/ducnguyen/Documents/Freelancer Pro/Demo_workout_git/Workout_Demo/Workout_Demo.iOS/obj/iPhoneSimulator/Debug/Workout_Demo.iOS.csprojResolveAssemblyReference.cache
 /Users/ducnguyen/Documents/Freelancer Pro/Demo_workout_git/Workout_Demo/Workout_Demo.iOS/obj/iPhoneSimulator/Debug/Workout_Demo.iOS.csproj.LegistrackerMobile.iOS.exe.config
 /Users/ducnguyen/Documents/Freelancer Pro/Demo_workout_git/Workout_Demo/Workout_Demo.iOS/obj/iPhoneSimulator/Debug/Workout_Demo.iOS.csproj.CoreCompileInputs.cache
@@ -45,3 +41,7 @@
 /Users/ducnguyen/Documents/Freelancer Pro/Demo_workout_git/Workout_Demo/Workout_Demo.iOS/bin/iPhoneSimulator/Debug/System.Net.Http.Primitives.dll
 /Users/ducnguyen/Documents/Freelancer Pro/Demo_workout_git/Workout_Demo/Workout_Demo.iOS/bin/iPhoneSimulator/Debug/System.Net.Http.Extensions.xml
 /Users/ducnguyen/Documents/Freelancer Pro/Demo_workout_git/Workout_Demo/Workout_Demo.iOS/bin/iPhoneSimulator/Debug/System.Net.Http.Primitives.xml
+/Users/ducnguyen/Documents/Freelancer Pro/Demo_workout_git/Workout_Demo/Workout_Demo.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone5.1-10.3/ibtool/_BundleResourceWithLogicalName.items
+/Users/ducnguyen/Documents/Freelancer Pro/Demo_workout_git/Workout_Demo/Workout_Demo.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone5.1-10.3/actool/_PartialAppManifest.items
+/Users/ducnguyen/Documents/Freelancer Pro/Demo_workout_git/Workout_Demo/Workout_Demo.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone5.1-10.3/actool/_BundleResourceWithLogicalName.items
+/Users/ducnguyen/Documents/Freelancer Pro/Demo_workout_git/Workout_Demo/Workout_Demo.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone5.1-10.3/optimized/

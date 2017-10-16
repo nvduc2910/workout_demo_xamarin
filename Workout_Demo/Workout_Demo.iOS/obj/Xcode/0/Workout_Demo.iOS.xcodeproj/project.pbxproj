@@ -1,0 +1,338 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D3730C3D0000000000000000 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A9525790000000000000000 /* UIKit.framework */; };
+		416AEA0B0000000000000000 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C88D03470000000000000000 /* MapKit.framework */; };
+		7866D8F20000000000000000 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FF88F22E0000000000000000 /* Foundation.framework */; };
+		AF62C7D90000000000000000 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3684E1150000000000000000 /* CoreGraphics.framework */; };
+		C12AB04F0000000000000000 /* Entitlements.plist in Resources */ = {isa = PBXBuildFile; fileRef = 484CC98B0000000000000000 /* Entitlements.plist */; };
+		BF15D5560000000000000000 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 4637EE920000000000000000 /* Info.plist */; };
+		499618140000000000000000 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D0B831500000000000000000 /* Main.storyboard */; };
+		D4165AD20000000000000000 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5B38740E0000000000000000 /* LaunchScreen.xib */; };
+		570EBE1C0000000000000000 /* SpalshView.xib in Resources */ = {isa = PBXBuildFile; fileRef = DE30D7580000000000000000 /* SpalshView.xib */; };
+		C2F1C0F10000000000000000 /* LoginEmailView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4A13DA2D0000000000000000 /* LoginEmailView.xib */; };
+		2B769A440000000000000000 /* LoginPasswordView.xib in Resources */ = {isa = PBXBuildFile; fileRef = B298B3800000000000000000 /* LoginPasswordView.xib */; };
+		A23FA60F0000000000000000 /* RegisterAccountView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2961BF4B0000000000000000 /* RegisterAccountView.xib */; };
+		63BBD7B40000000000000000 /* WorkoutView.xib in Resources */ = {isa = PBXBuildFile; fileRef = EADDF0F00000000000000000 /* WorkoutView.xib */; };
+		B1019AA00000000000000000 /* WorkoutTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3823B3DC0000000000000000 /* WorkoutTableViewCell.xib */; };
+		47B134DD0000000000000000 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CED34E190000000000000000 /* Assets.xcassets */; };
+		74A4CC6B0000000000000000 /* WorkoutTableViewCell.h in Sources */ = {isa = PBXBuildFile; fileRef = FBC6E5A70000000000000000 /* WorkoutTableViewCell.h */; };
+		EECC01B80000000000000000 /* WorkoutTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 75EE1AF40000000000000000 /* WorkoutTableViewCell.m */; };
+		C1EA8F570000000000000000 /* WorkoutView.h in Sources */ = {isa = PBXBuildFile; fileRef = 490CA8930000000000000000 /* WorkoutView.h */; };
+		75228E840000000000000000 /* WorkoutView.m in Sources */ = {isa = PBXBuildFile; fileRef = FC44A7C00000000000000000 /* WorkoutView.m */; };
+		CC050BDD0000000000000000 /* RegisterAccountView.h in Sources */ = {isa = PBXBuildFile; fileRef = 532725190000000000000000 /* RegisterAccountView.h */; };
+		B2DAD06F0000000000000000 /* RegisterAccountView.m in Sources */ = {isa = PBXBuildFile; fileRef = 39FCE9AB0000000000000000 /* RegisterAccountView.m */; };
+		6B85D4170000000000000000 /* LoginPasswordView.h in Sources */ = {isa = PBXBuildFile; fileRef = F2A7ED530000000000000000 /* LoginPasswordView.h */; };
+		E7C1E45D0000000000000000 /* LoginPasswordView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EE3FD990000000000000000 /* LoginPasswordView.m */; };
+		C5C67AF20000000000000000 /* LoginEmailView.h in Sources */ = {isa = PBXBuildFile; fileRef = 4CE8942E0000000000000000 /* LoginEmailView.h */; };
+		20935B000000000000000000 /* LoginEmailView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8742AC970000000000000000 /* LoginEmailView.m */; };
+		6E1871290000000000000000 /* SpalshView.h in Sources */ = {isa = PBXBuildFile; fileRef = F53A8A650000000000000000 /* SpalshView.h */; };
+		ADE58E0D0000000000000000 /* SpalshView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3507A7490000000000000000 /* SpalshView.m */; };
+		584C5F3D0000000000000000 /* TPKeyboardAvoidingScrollView.h in Sources */ = {isa = PBXBuildFile; fileRef = DF6E78790000000000000000 /* TPKeyboardAvoidingScrollView.h */; };
+		AF2EDC960000000000000000 /* TPKeyboardAvoidingScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3650F5D20000000000000000 /* TPKeyboardAvoidingScrollView.m */; };
+		42804D510000000000000000 /* BindableUrlUIImageView.h in Sources */ = {isa = PBXBuildFile; fileRef = C9A2668D0000000000000000 /* BindableUrlUIImageView.h */; };
+		D5D1BE0C0000000000000000 /* BindableUrlUIImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CF3D7480000000000000000 /* BindableUrlUIImageView.m */; };
+		7767613F0000000000000000 /* AppDelegate.h in Sources */ = {isa = PBXBuildFile; fileRef = FE897A7B0000000000000000 /* AppDelegate.h */; };
+		FDBDEE0B0000000000000000 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 84E007470000000000000000 /* AppDelegate.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		FC7893030000000000000000 /* Workout_Demo.iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; name = "Workout_Demo.iOS.app"; path = "Workout_Demo.iOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5A9525790000000000000000 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = "UIKit.framework"; path = "System/Library/Frameworks/UIKit.framework"; sourceTree = SDKROOT; };
+		C88D03470000000000000000 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = "MapKit.framework"; path = "System/Library/Frameworks/MapKit.framework"; sourceTree = SDKROOT; };
+		FF88F22E0000000000000000 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = "Foundation.framework"; path = "System/Library/Frameworks/Foundation.framework"; sourceTree = SDKROOT; };
+		3684E1150000000000000000 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = "CoreGraphics.framework"; path = "System/Library/Frameworks/CoreGraphics.framework"; sourceTree = SDKROOT; };
+		484CC98B0000000000000000 /* Entitlements.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "Entitlements.plist"; path = "Entitlements.plist"; sourceTree = "<group>"; };
+		4637EE920000000000000000 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "Info.plist"; path = "Info.plist"; sourceTree = "<group>"; };
+		D0B831500000000000000000 /* Main.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = "Main.storyboard"; path = "Main.storyboard"; sourceTree = "<group>"; };
+		5B38740E0000000000000000 /* LaunchScreen.xib */ = {isa = PBXFileReference; name = "LaunchScreen.xib"; path = "LaunchScreen.xib"; sourceTree = "<group>"; };
+		DE30D7580000000000000000 /* SpalshView.xib */ = {isa = PBXFileReference; name = "SpalshView.xib"; path = "Views/SpalshView.xib"; sourceTree = "<group>"; };
+		4A13DA2D0000000000000000 /* LoginEmailView.xib */ = {isa = PBXFileReference; name = "LoginEmailView.xib"; path = "Views/LoginEmailView.xib"; sourceTree = "<group>"; };
+		B298B3800000000000000000 /* LoginPasswordView.xib */ = {isa = PBXFileReference; name = "LoginPasswordView.xib"; path = "Views/LoginPasswordView.xib"; sourceTree = "<group>"; };
+		2961BF4B0000000000000000 /* RegisterAccountView.xib */ = {isa = PBXFileReference; name = "RegisterAccountView.xib"; path = "Views/RegisterAccountView.xib"; sourceTree = "<group>"; };
+		EADDF0F00000000000000000 /* WorkoutView.xib */ = {isa = PBXFileReference; name = "WorkoutView.xib"; path = "Views/WorkoutView.xib"; sourceTree = "<group>"; };
+		3823B3DC0000000000000000 /* WorkoutTableViewCell.xib */ = {isa = PBXFileReference; name = "WorkoutTableViewCell.xib"; path = "Views/Cells/TableViewCells/WorkoutTableViewCell.xib"; sourceTree = "<group>"; };
+		CED34E190000000000000000 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = "Assets.xcassets"; path = "Assets.xcassets"; sourceTree = "<group>"; };
+		FBC6E5A70000000000000000 /* WorkoutTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "WorkoutTableViewCell.h"; path = "WorkoutTableViewCell.h"; sourceTree = "<group>"; };
+		75EE1AF40000000000000000 /* WorkoutTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "WorkoutTableViewCell.m"; path = "WorkoutTableViewCell.m"; sourceTree = "<group>"; };
+		490CA8930000000000000000 /* WorkoutView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "WorkoutView.h"; path = "WorkoutView.h"; sourceTree = "<group>"; };
+		FC44A7C00000000000000000 /* WorkoutView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "WorkoutView.m"; path = "WorkoutView.m"; sourceTree = "<group>"; };
+		532725190000000000000000 /* RegisterAccountView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "RegisterAccountView.h"; path = "RegisterAccountView.h"; sourceTree = "<group>"; };
+		39FCE9AB0000000000000000 /* RegisterAccountView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "RegisterAccountView.m"; path = "RegisterAccountView.m"; sourceTree = "<group>"; };
+		F2A7ED530000000000000000 /* LoginPasswordView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "LoginPasswordView.h"; path = "LoginPasswordView.h"; sourceTree = "<group>"; };
+		6EE3FD990000000000000000 /* LoginPasswordView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "LoginPasswordView.m"; path = "LoginPasswordView.m"; sourceTree = "<group>"; };
+		4CE8942E0000000000000000 /* LoginEmailView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "LoginEmailView.h"; path = "LoginEmailView.h"; sourceTree = "<group>"; };
+		8742AC970000000000000000 /* LoginEmailView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "LoginEmailView.m"; path = "LoginEmailView.m"; sourceTree = "<group>"; };
+		F53A8A650000000000000000 /* SpalshView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "SpalshView.h"; path = "SpalshView.h"; sourceTree = "<group>"; };
+		3507A7490000000000000000 /* SpalshView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "SpalshView.m"; path = "SpalshView.m"; sourceTree = "<group>"; };
+		DF6E78790000000000000000 /* TPKeyboardAvoidingScrollView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "TPKeyboardAvoidingScrollView.h"; path = "TPKeyboardAvoidingScrollView.h"; sourceTree = "<group>"; };
+		3650F5D20000000000000000 /* TPKeyboardAvoidingScrollView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "TPKeyboardAvoidingScrollView.m"; path = "TPKeyboardAvoidingScrollView.m"; sourceTree = "<group>"; };
+		C9A2668D0000000000000000 /* BindableUrlUIImageView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "BindableUrlUIImageView.h"; path = "BindableUrlUIImageView.h"; sourceTree = "<group>"; };
+		5CF3D7480000000000000000 /* BindableUrlUIImageView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "BindableUrlUIImageView.m"; path = "BindableUrlUIImageView.m"; sourceTree = "<group>"; };
+		FE897A7B0000000000000000 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "AppDelegate.h"; path = "AppDelegate.h"; sourceTree = "<group>"; };
+		84E007470000000000000000 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "AppDelegate.m"; path = "AppDelegate.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A237EC280000000000000000 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D3730C3D0000000000000000 /* UIKit.framework in Frameworks */,
+				416AEA0B0000000000000000 /* MapKit.framework in Frameworks */,
+				7866D8F20000000000000000 /* Foundation.framework in Frameworks */,
+				AF62C7D90000000000000000 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		17B7A96A0000000000000000 = {
+			isa = PBXGroup;
+			children = (
+				740D2B3E0000000000000000 /* Workout_Demo.iOS */,
+				70AF01BC0000000000000000 /* Frameworks */,
+				45E26A540000000000000000 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		45E26A540000000000000000 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FC7893030000000000000000 /* Workout_Demo.iOS.app */,
+			);
+			name = "Products";
+			sourceTree = "<group>";
+		};
+		70AF01BC0000000000000000 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5A9525790000000000000000 /* UIKit.framework */,
+				C88D03470000000000000000 /* MapKit.framework */,
+				FF88F22E0000000000000000 /* Foundation.framework */,
+				3684E1150000000000000000 /* CoreGraphics.framework */,
+			);
+			name = "Frameworks";
+			sourceTree = "<group>";
+		};
+		740D2B3E0000000000000000 /* Workout_Demo.iOS */ = {
+			isa = PBXGroup;
+			children = (
+				FE897A7B0000000000000000 /* AppDelegate.h */,
+				CED34E190000000000000000 /* Assets.xcassets */,
+				C9A2668D0000000000000000 /* BindableUrlUIImageView.h */,
+				484CC98B0000000000000000 /* Entitlements.plist */,
+				4637EE920000000000000000 /* Info.plist */,
+				5B38740E0000000000000000 /* LaunchScreen.xib */,
+				4CE8942E0000000000000000 /* LoginEmailView.h */,
+				F2A7ED530000000000000000 /* LoginPasswordView.h */,
+				D0B831500000000000000000 /* Main.storyboard */,
+				532725190000000000000000 /* RegisterAccountView.h */,
+				F53A8A650000000000000000 /* SpalshView.h */,
+				DF6E78790000000000000000 /* TPKeyboardAvoidingScrollView.h */,
+				FBC6E5A70000000000000000 /* WorkoutTableViewCell.h */,
+				490CA8930000000000000000 /* WorkoutView.h */,
+				B7D012D10000000000000000 /* Supporting Files */,
+				DAD2ADD60000000000000000 /* Views */,
+			);
+			name = "Workout_Demo.iOS";
+			sourceTree = "<group>";
+		};
+		DAD2ADD60000000000000000 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				4A13DA2D0000000000000000 /* LoginEmailView.xib */,
+				B298B3800000000000000000 /* LoginPasswordView.xib */,
+				2961BF4B0000000000000000 /* RegisterAccountView.xib */,
+				DE30D7580000000000000000 /* SpalshView.xib */,
+				EADDF0F00000000000000000 /* WorkoutView.xib */,
+				EA1264800000000000000000 /* Cells */,
+			);
+			name = "Views";
+			sourceTree = "<group>";
+		};
+		EA1264800000000000000000 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				183D256A0000000000000000 /* TableViewCells */,
+			);
+			name = "Cells";
+			sourceTree = "<group>";
+		};
+		183D256A0000000000000000 /* TableViewCells */ = {
+			isa = PBXGroup;
+			children = (
+				3823B3DC0000000000000000 /* WorkoutTableViewCell.xib */,
+			);
+			name = "TableViewCells";
+			sourceTree = "<group>";
+		};
+		B7D012D10000000000000000 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				84E007470000000000000000 /* AppDelegate.m */,
+				5CF3D7480000000000000000 /* BindableUrlUIImageView.m */,
+				8742AC970000000000000000 /* LoginEmailView.m */,
+				6EE3FD990000000000000000 /* LoginPasswordView.m */,
+				39FCE9AB0000000000000000 /* RegisterAccountView.m */,
+				3507A7490000000000000000 /* SpalshView.m */,
+				3650F5D20000000000000000 /* TPKeyboardAvoidingScrollView.m */,
+				75EE1AF40000000000000000 /* WorkoutTableViewCell.m */,
+				FC44A7C00000000000000000 /* WorkoutView.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		288E78F40000000000000000 /* Workout_Demo.iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6712474F0000000000000000 /* Build configuration list for PBXNativeTarget "Workout_Demo.iOS" */;
+			buildPhases = (
+				FE8D6DFC0000000000000000 /* Sources */,
+				A237EC280000000000000000 /* Frameworks */,
+				CD1A07400000000000000000 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Workout_Demo.iOS";
+			productName = "Workout_Demo.iOS";
+			productReference = FC7893030000000000000000 /* Workout_Demo.iOS.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F4F0B38F0000000000000000 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = AC5268AE0000000000000000 /* Build configuration list for PBXProject "Workout_Demo.iOS" */;
+			compatibilityVersion = "Xcode 3.2";
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 17B7A96A0000000000000000;
+			productRefGroup = 45E26A540000000000000000 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				288E78F40000000000000000 /* Workout_Demo.iOS */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CD1A07400000000000000000 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C12AB04F0000000000000000 /* Entitlements.plist in Resources */,
+				BF15D5560000000000000000 /* Info.plist in Resources */,
+				499618140000000000000000 /* Main.storyboard in Resources */,
+				D4165AD20000000000000000 /* LaunchScreen.xib in Resources */,
+				570EBE1C0000000000000000 /* SpalshView.xib in Resources */,
+				C2F1C0F10000000000000000 /* LoginEmailView.xib in Resources */,
+				2B769A440000000000000000 /* LoginPasswordView.xib in Resources */,
+				A23FA60F0000000000000000 /* RegisterAccountView.xib in Resources */,
+				63BBD7B40000000000000000 /* WorkoutView.xib in Resources */,
+				B1019AA00000000000000000 /* WorkoutTableViewCell.xib in Resources */,
+				47B134DD0000000000000000 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FE8D6DFC0000000000000000 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				74A4CC6B0000000000000000 /* WorkoutTableViewCell.h in Sources */,
+				EECC01B80000000000000000 /* WorkoutTableViewCell.m in Sources */,
+				C1EA8F570000000000000000 /* WorkoutView.h in Sources */,
+				75228E840000000000000000 /* WorkoutView.m in Sources */,
+				CC050BDD0000000000000000 /* RegisterAccountView.h in Sources */,
+				B2DAD06F0000000000000000 /* RegisterAccountView.m in Sources */,
+				6B85D4170000000000000000 /* LoginPasswordView.h in Sources */,
+				E7C1E45D0000000000000000 /* LoginPasswordView.m in Sources */,
+				C5C67AF20000000000000000 /* LoginEmailView.h in Sources */,
+				20935B000000000000000000 /* LoginEmailView.m in Sources */,
+				6E1871290000000000000000 /* SpalshView.h in Sources */,
+				ADE58E0D0000000000000000 /* SpalshView.m in Sources */,
+				584C5F3D0000000000000000 /* TPKeyboardAvoidingScrollView.h in Sources */,
+				AF2EDC960000000000000000 /* TPKeyboardAvoidingScrollView.m in Sources */,
+				42804D510000000000000000 /* BindableUrlUIImageView.h in Sources */,
+				D5D1BE0C0000000000000000 /* BindableUrlUIImageView.m in Sources */,
+				7767613F0000000000000000 /* AppDelegate.h in Sources */,
+				FDBDEE0B0000000000000000 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8185D1460000000000000000 /* MonoTouch */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = "";
+				SDKROOT = iphoneos;
+			};
+			name = MonoTouch;
+		};
+		DA7D29980000000000000000 /* MonoTouch */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = NO;
+				PRODUCT_NAME = "Workout_Demo.iOS";
+				WRAPPER_EXTENSION = app;
+			};
+			name = MonoTouch;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AC5268AE0000000000000000 /* Build configuration list for PBXProject "Workout_Demo.iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8185D1460000000000000000 /* MonoTouch */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = MonoTouch;
+		};
+		6712474F0000000000000000 /* Build configuration list for PBXNativeTarget "Workout_Demo.iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DA7D29980000000000000000 /* MonoTouch */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = MonoTouch;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F4F0B38F0000000000000000 /* Project object */;
+}
